@@ -11,7 +11,7 @@ All Imp. Commands:
 - git log (or) git log --oneline
 - git config --global core.editor "code --wait"                        		--changes default editor to vs code
 - .gitignore                                                          
-
+- git config --list								--for all configuration info.
 --------------------------Branching-------------------------------
 - git branch                                                        		--list all available branches, default MASTER
 - git branch <branch name>                                          		-- create branch

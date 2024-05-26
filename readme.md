@@ -12,6 +12,7 @@ All Imp. Commands:
 - git config --global core.editor "code --wait"                        		--changes default editor to vs code
 - .gitignore                                                          
 - git config --list								--for all configuration info.
+  
 --------------------------Branching-------------------------------
 - git branch                                                        		--list all available branches, default MASTER
 - git branch <branch name>                                          		-- create branch
@@ -24,18 +25,22 @@ All Imp. Commands:
 - git diff --staged	(or) git diff <id  id>					-- compares current version with previous version 									                                                                   of commits on the same file.
 
 -------------------------Stashing---------------------------------------------
-conflicting changes do not allow to switch branch , without commits
-stash stores data temporarily so that you can switch branch even without adding to staging area.
+
+- conflicting changes do not allow to switch branch , without commits
+- stash stores data temporarily so that you can switch branch even without adding to staging area.
+  
 - git stash                                  					-- you can switch branch
 - git stash pop									-- bring back those changes
 - git stash apply								--apply changes and keep them in stash
 
 -----------------------More Commands-------------------------------------------------------- 
+
 - git checkout <hash> 								--detach head: moves to particular commits
 - git checkout master (or) git reflog						--re-attach head: come back to original position
 - git rebase master								--never do when u r on master
 
 -----------------------Connecting to GITHUB------------------------------------------------
+
 - how to add SSH key to GitHub 
 - connecting to GitHub using SSH key- create & add it
 
@@ -46,6 +51,7 @@ stash stores data temporarily so that you can switch branch even without adding 
 										   -u setup an upstream that allow to run 										   								   future command git push 
 
 ----------------------Pull from Remote Repo-------------------------------------------------
+
 - git clone https://github.com/Guddilivinodkumar/learn-git.git			-- clone entire repository
 - git fetch									-- get info but do not put in my work
 - git pull 									-- (git fetch + git merge)

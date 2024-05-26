@@ -2,38 +2,38 @@ Learn Git and Github
 
 All Imp. Commands:
 
-1- git init
-2- git status
-3- git add . 
-4- git commit -m "add message"
-5- git config --global user.email "email@gmail.com"
-6- git config --global user.name "username"
-7- git log (or) git log --oneline
-8- git config --global core.editor "code --wait"                        	--changes default editor to vs code
-9- .gitignore                                                          
+- git init
+- git status
+- git add . 
+- git commit -m "add message"
+- git config --global user.email "email@gmail.com"
+- git config --global user.name "username"
+- git log (or) git log --oneline
+- git config --global core.editor "code --wait"                        		--changes default editor to vs code
+- .gitignore                                                          
 
 --------------------------Branching-------------------------------
-10- git branch                                                        		--list all available branches, default MASTER
-11- git branch <branch name>                                          		-- create branch
-12- git checkout <branch name>    (or) git switch <branch name>       		-- navigate to a particular branch
-13- git checkout -b <branch name> (or) git switch -c <branch name>    		-- create a branch & move there
+- git branch                                                        		--list all available branches, default MASTER
+- git branch <branch name>                                          		-- create branch
+- git checkout <branch name>    (or) git switch <branch name>       		-- navigate to a particular branch
+- git checkout -b <branch name> (or) git switch -c <branch name>    		-- create a branch & move there
 
 --------------------------Merging-------------------------------------------
-14- git merge <branch-name> -m "add message"                          		-- merge branch
-15- git branch -d <branch-name>                 		      		-- delete branch
-16- git diff --staged	(or) git diff <id  id>					-- compares current version with previous version 									                                                                   of commits on the same file.
+- git merge <branch-name> -m "add message"                          		-- merge branch
+- git branch -d <branch-name>                 		     	 		-- delete branch
+- git diff --staged	(or) git diff <id  id>					-- compares current version with previous version 									                                                                   of commits on the same file.
 
 -------------------------Stashing---------------------------------------------
 conflicting changes do not allow to switch branch , without commits
 stash stores data temporarily so that you can switch branch even without adding to staging area.
-17- git stash                                  					-- you can switch branch
-18- git stash pop								-- bring back those changes
-19- git stash apply								--apply changes and keep them in stash
+- git stash                                  					-- you can switch branch
+- git stash pop									-- bring back those changes
+- git stash apply								--apply changes and keep them in stash
 
 -----------------------More Commands-------------------------------------------------------- 
-20- git checkout <hash> 							--detach head: moves to particular commits
-21- git checkout master	(or) git reflog						--re-attach head: come back to original position
-22- git rebase master								--never do when u r on master
+- git checkout <hash> 								--detach head: moves to particular commits
+- git checkout master (or) git reflog						--re-attach head: come back to original position
+- git rebase master								--never do when u r on master
 
 -----------------------Connecting to GITHUB------------------------------------------------
 - how to add SSH key to GitHub 

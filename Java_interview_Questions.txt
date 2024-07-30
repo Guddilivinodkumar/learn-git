@@ -176,3 +176,47 @@ public class LongestSubstringWithoutRepeatingChars {
         System.out.println("Length of the longest substring without repeating characters: " + length);
     }
 }
+Ice breaking question
+
+1.What do you like to do in your free time?
+2.What's your favourite hobby and why do you enjoy it?
+3.How far will your home town to office?
+4.What was the most interesting place you’ve ever lived or visited?
+5.What makes you feel most attentive
+6.What differences you find with WFH and WFO?
+
+Personality question
+
+1.What interests you about this role?
+2.Can you share a challenging situation you've faced at work and how you handled it?
+3 Can you share a specific skill you've developed or improved upon recently, and how has it benefited your work?
+4 What has been the most challenging project you've worked on, and how did you navigate through it?
+5 What skills or expertise do you consider essential for success in your current role?
+
+Experience question
+
+1.What interests you about this role?
+2.Can you share a challenging situation you've faced at work and how you handled it?
+3 Can you share a specific skill you've developed or improved upon recently, and how has it benefited your work?
+4 What has been the most challenging project you've worked on, and how did you navigate through it?
+5 What skills or expertise do you consider essential for success in your current role? 
+
+Technology question
+
+1.What do you think are the key skills needed for a successful career in the tech industry today? 
+2.What kind of support can I expect for you(organisation)?
+3.Can you describe your experience with setting up CI/CD pipelines? Which tools have you used, and what challenges have you encountered?
+4.How have you used Terraform or similar IaC tools in your projects? Can you provide an example of a complex infrastructure setup you've automated?
+5.Which configuration management tools (like Ansible, Chef, or Puppet) have you worked with, and how did you use them to manage infrastructure configurations?
+
+
+Closing questions
+
+1.How does the team stay updated with the latest technological advancements?
+2.Are there opportunities for experimenting with or learning new technologies?
+3.what are you looking forward to in the coming week?
+4.what your biggest goal for next year?
+5.Do you have any plans for weekend?
+6.Do you have any feedback on my qualifications or anything you'd like me to elaborate on?
+7.Can you tell me more about the team I would be working with?
+8.What are the company's main goals for the next year, and how does this role contribute to achieving them?
